@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" styleClass="root" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+
+    <children>
+
+        <!-- Kiri - Branding -->
+        <AnchorPane layoutX="0.0" layoutY="0.0" prefHeight="1080.0" prefWidth="960.0" style="-fx-background-color: rgba(235, 255, 235, 1);">
+         <children>
+            <ImageView fitHeight="1008.0" fitWidth="934.0" layoutX="3.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/Group%2015.png" />
+               </image>
+            </ImageView>
+         </children>
+        </AnchorPane>
+
+        <!-- Kanan - Form -->
+        <AnchorPane layoutX="960.0" prefHeight="1080.0" prefWidth="960.0" style="-fx-background-color: rgba(235, 255, 235, 1);">
+
+            <Label layoutX="290.0" layoutY="352.0" styleClass="title" text="Selamat Datang!" />
+            <Label layoutX="350.0" layoutY="400.0" styleClass="subtitle" text="Masuk untuk melanjutkan" />
+
+            <TextField fx:id="emailField" layoutX="285.0" layoutY="480.0" prefWidth="350.0" promptText="Email" styleClass="text-field" />
+
+            <Button fx:id="loginButton" layoutX="285.0" layoutY="660.0" onAction="#handleLogin" prefWidth="350.0" styleClass="button-primary" text="Login" />
+
+            <Hyperlink layoutX="425.0" layoutY="720.0" onAction="#handleRegister" text="Buat Akun" />
+              <PasswordField fx:id="passwordField" layoutX="286.0" layoutY="524.0" prefWidth="350.0" promptText="Password" styleClass="text-field" />
+              <TextField fx:id="passwordTextField" layoutX="286.0" layoutY="516.0" managed="false" prefWidth="350.0" promptText="Password" styleClass="text-field" visible="false" />
+                <ImageView fx:id="eyeIcon" fitHeight="20.0" fitWidth="20.0" layoutX="603.0" layoutY="529.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../assets/eye-closed.png" />
+                    </image>
+                </ImageView>
+              <ToggleButton fx:id="togglePasswordButton" layoutX="607.0" layoutY="526.0" styleClass="toggle-button-icon" />
+        </AnchorPane>
+    </children>
+</AnchorPane>

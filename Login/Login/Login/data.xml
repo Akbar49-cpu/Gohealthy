@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<people>
+    <person tanggal="22Juli2025" id="0001" nama="Dr.Catur" bidang="Dokter"/>
+    <person tanggal="22Juli2025" id="0010" nama="Widayat" bidang="Ahli Gizi"/>
+    <person tanggal="23Juli2025" id="0011" nama="Dr.Abdul" bidang="Dokter"/>
+    <person tanggal="23Juli2025" id="0100" nama="Hakam Mubaro" bidang="Ahli Gizi"/>
+    <person tanggal="24Juli2025" id="0101" nama="Dr.Mohamad" bidang="Dokter"/>
+    <person tanggal="24Juli2025" id="0110" nama="Ananto" bidang="Ahli Gizi"/>
+    <person tanggal="25Juli2025" id="0111" nama="Dr.Dian" bidang="Dokter"/>
+    <person tanggal="25Juli2025" id="1000" nama="Prasetyawati" bidang="Ahli Gizi"/>
+    <person tanggal="26Juli2025" id="1001" nama="Dr.Yunus" bidang="Dokter"/>
+    <person tanggal="26Juli2025" id="1010" nama="Mahatma" bidang="Ahli Gizi"/>
+    <person tanggal="27Juli2025" id="1011" nama="Dr.Muhamad" bidang="Dokter"/>
+    <person tanggal="27Juli2025" id="1100" nama="Afrizal Farkhan" bidang="Ahli Gizi"/>
+    <person tanggal="28Juli2025" id="1101" nama="Dr.Adam" bidang="Dokter"/>
+    <person tanggal="28Juli2025" id="1110" nama="Moeljono" bidang="Ahli Gizi"/>
+    <person tanggal="29Juli2025" id="1111" nama="Dr.Luthfi" bidang="Dokter"/>
+</people>

@@ -1,0 +1,116 @@
+<userData>
+  <user>
+    <nama>riza</nama>
+    <email>rizadad@gmail.com</email>
+    <password>aryA124%</password>
+    <beratBadan>100.0</beratBadan>
+    <tinggiBadan>200.0</tinggiBadan>
+    <riwayatMakananList>
+      <riwayatMakanan>
+        <makanan>nasi putih</makanan>
+        <beratGram>500.0</beratGram>
+        <kalori>875.0</kalori>
+        <tanggal>2025-07-18</tanggal>
+        <waktuMakan>Pagi</waktuMakan>
+      </riwayatMakanan>
+      <riwayatMakanan>
+        <makanan>ayam goreng</makanan>
+        <beratGram>400.0</beratGram>
+        <kalori>1040.0</kalori>
+        <tanggal>2025-07-18</tanggal>
+        <waktuMakan>Pagi</waktuMakan>
+      </riwayatMakanan>
+      <riwayatMakanan>
+        <makanan>nasi putih</makanan>
+        <beratGram>400.0</beratGram>
+        <kalori>700.0</kalori>
+        <tanggal>2025-07-20</tanggal>
+        <waktuMakan>Siang</waktuMakan>
+      </riwayatMakanan>
+      <riwayatMakanan>
+        <makanan>nasi putih</makanan>
+        <beratGram>300.0</beratGram>
+        <kalori>525.0</kalori>
+        <tanggal>2025-07-21</tanggal>
+        <waktuMakan>Pagi</waktuMakan>
+      </riwayatMakanan>
+      <riwayatMakanan>
+        <makanan>ayam goreng</makanan>
+        <beratGram>400.0</beratGram>
+        <kalori>1040.0</kalori>
+        <tanggal>2025-07-21</tanggal>
+        <waktuMakan>Pagi</waktuMakan>
+      </riwayatMakanan>
+    </riwayatMakananList>
+    <dataBeratBadanList>
+      <dataBeratBadan>
+        <tanggalDate>2025-07-21</tanggalDate>
+        <berat>100.0</berat>
+      </dataBeratBadan>
+    </dataBeratBadanList>
+  </user>
+  <user>
+    <nama>ahmad</nama>
+    <email>ahmad@gmail.com</email>
+    <password>aryA123%</password>
+    <targetKalori>3000.0</targetKalori>
+    <riwayatMakananList>
+      <riwayatMakanan>
+        <makanan>nasi putih</makanan>
+        <beratGram>500.0</beratGram>
+        <kalori>875.0</kalori>
+        <tanggal>2025-07-21</tanggal>
+        <waktuMakan>Pagi</waktuMakan>
+      </riwayatMakanan>
+      <riwayatMakanan>
+        <makanan>ayam goreng</makanan>
+        <beratGram>300.0</beratGram>
+        <kalori>780.0</kalori>
+        <tanggal>2025-07-21</tanggal>
+        <waktuMakan>Pagi</waktuMakan>
+      </riwayatMakanan>
+      <riwayatMakanan>
+        <makanan>sayur bayam</makanan>
+        <beratGram>400.0</beratGram>
+        <kalori>140.0</kalori>
+        <tanggal>2025-07-20</tanggal>
+        <waktuMakan>Pagi</waktuMakan>
+      </riwayatMakanan>
+      <riwayatMakanan>
+        <makanan>tempe goreng</makanan>
+        <beratGram>300.0</beratGram>
+        <kalori>600.0</kalori>
+        <tanggal>2025-07-20</tanggal>
+        <waktuMakan>Pagi</waktuMakan>
+      </riwayatMakanan>
+    </riwayatMakananList>
+    <dataBeratBadanList>
+      <dataBeratBadan>
+        <tanggalDate>2025-07-19</tanggalDate>
+        <berat>80.0</berat>
+      </dataBeratBadan>
+      <dataBeratBadan>
+        <tanggalDate>2025-07-21</tanggalDate>
+        <berat>70.0</berat>
+      </dataBeratBadan>
+    </dataBeratBadanList>
+    <jadwalPesananList/>
+  </user>
+  <user>
+    <nama>kbar</nama>
+    <email>akbar@gmail.com</email>
+    <password>Akbar2004!</password>
+    <targetKalori>2000.0</targetKalori>
+    <riwayatMakananList>
+      <riwayatMakanan>
+        <makanan>ayam goreng</makanan>
+        <beratGram>200.0</beratGram>
+        <kalori>520.0</kalori>
+        <tanggal>2025-07-21</tanggal>
+        <waktuMakan>Pagi</waktuMakan>
+      </riwayatMakanan>
+    </riwayatMakananList>
+    <dataBeratBadanList/>
+    <jadwalPesananList/>
+  </user>
+</userData>

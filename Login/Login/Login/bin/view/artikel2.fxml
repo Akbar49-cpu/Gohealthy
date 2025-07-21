@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #F1FFF1;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.artikel2Controller">
+
+    <Pane layoutX="60.0" layoutY="70.0" prefHeight="941.0" prefWidth="1789.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 20; -fx-effect: dropshadow(gaussian, rgba(174,212,181,0.6), 12, 0.3, 0, 4);">
+        <Label layoutX="20.0" layoutY="20.0" prefWidth="1780.0" style="-fx-font-size: 36px; -fx-font-family: 'Plus Jakarta Sans'; -fx-text-fill: rgb(96, 176, 103); -fx-font-weight: bold;" text="Manfaat Sarapan Pagi bagi Kesehatan dan Konsentrasi" wrapText="true" />
+        <Text layoutX="20.0" layoutY="109.0" style="-fx-font-size: 20px; -fx-font-family: 'Plus Jakarta Sans';" text="Sarapan pagi adalah salah satu kebiasaan penting yang sering diabaikan oleh banyak orang, terutama mereka yang memiliki rutinitas sibuk. Padahal, sarapan merupakan sumber energi utama setelah tubuh beristirahat sepanjang malam." wrappingWidth="1718.6248779296875" />
+        <Text layoutX="20.0" layoutY="160.0" style="-fx-font-size: 20px; -fx-font-family: 'Plus Jakarta Sans';" text="Dengan sarapan yang sehat dan bergizi, tubuh mendapatkan asupan glukosa untuk memulai aktivitas harian. Tidak hanya membantu menjaga konsentrasi dan fokus, sarapan juga membantu menstabilkan emosi dan mengurangi rasa lapar berlebihan di siang hari." wrappingWidth="1780.0" />
+        <Label layoutX="20.0" layoutY="203.0" style="-fx-font-size: 28px; -fx-font-family: 'Plus Jakarta Sans'; -fx-text-fill: rgb(96, 176, 103); -fx-font-weight: bold;" text="Mengapa Sarapan Tidak Boleh Dilewatkan?" />
+        <Text layoutX="20.0" layoutY="260.0" style="-fx-font-size: 20px; -fx-font-family: 'Plus Jakarta Sans';" text="Tidak sarapan bisa membuat tubuh kekurangan energi, mudah lelah, dan sulit berkonsentrasi, terutama bagi anak-anak dan pelajar. Dalam jangka panjang, kebiasaan ini dapat mengganggu metabolisme dan memicu pola makan yang tidak teratur." wrappingWidth="1780.0" />
+        <Text layoutX="20.0" layoutY="309.0" style="-fx-font-size: 20px; -fx-font-family: 'Plus Jakarta Sans';" text="Sarapan juga berperan penting dalam mengatur kadar gula darah. Orang yang melewatkan sarapan cenderung lebih sering ngemil atau makan berlebihan pada siang dan malam hari, yang dapat meningkatkan risiko obesitas dan diabetes tipe 2." wrappingWidth="1728.85400390625" />
+        <Label layoutX="20.0" layoutY="349.0" style="-fx-font-size: 28px; -fx-font-family: 'Plus Jakarta Sans'; -fx-text-fill: rgb(96, 176, 103); -fx-font-weight: bold;" text="Tips Sarapan Sehat" />
+        <Text layoutX="20.0" layoutY="409.0" style="-fx-font-size: 20px; -fx-font-family: 'Plus Jakarta Sans';" text="Mulailah hari dengan kombinasi makanan bergizi seperti roti gandum, telur rebus, buah segar, atau sereal rendah gula. Hindari sarapan dengan makanan tinggi lemak atau terlalu manis, karena bisa membuat tubuh lesu dan cepat lapar kembali. Sarapan ideal sebaiknya mengandung karbohidrat kompleks, protein, serta serat." wrappingWidth="1722.716552734375" />
+        <Label layoutX="20.0" layoutY="447.0" style="-fx-font-size: 28px; -fx-font-family: 'Plus Jakarta Sans'; -fx-text-fill: rgb(96, 176, 103); -fx-font-weight: bold;" text="Sarapan Adalah Investasi Kesehatan" />
+        <Text layoutX="20.0" layoutY="500.0" style="-fx-font-size: 20px; -fx-font-family: 'Plus Jakarta Sans';" text="Menjadikan sarapan sebagai kebiasaan sehari-hari adalah bentuk investasi untuk kesehatan jangka panjang. Selain membuat tubuh lebih siap menjalani aktivitas, sarapan juga membantu menjaga berat badan ideal dan meningkatkan kualitas hidup secara menyeluruh." wrappingWidth="1780.0" />
+    </Pane>
+   <Button fx:id="btnKembali" layoutX="20.0" layoutY="13.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="116.0" styleClass="button-primary" text="Kembali" />
+   <stylesheets>
+      <URL value="@../css/style.css" />
+   </stylesheets>
+</AnchorPane>

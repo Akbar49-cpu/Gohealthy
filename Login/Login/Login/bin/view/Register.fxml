@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #F1FFF1;" styleClass="root" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RegisterController">
+
+    <children>
+      <Pane layoutX="408.0" layoutY="44.0" prefHeight="614.0" prefWidth="478.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 20; -fx-effect: dropshadow(gaussian, rgba(174,212,181,0.6), 12, 0.3, 0, 4);" />
+        <Label layoutX="547.0" layoutY="90.0" styleClass="title" text="Buat Akun" />
+        <Label layoutX="475.0" layoutY="140.0" styleClass="subtitle" text="Bergabung Dengan GoHealthy Sekarang" />
+
+        <TextField fx:id="namaField" layoutX="475.0" layoutY="210.0" prefWidth="350.0" promptText="Nama" styleClass="text-field" />
+        <TextField fx:id="emailField" layoutX="475.0" layoutY="260.0" prefWidth="350.0" promptText="Email" styleClass="text-field" />
+
+        <StackPane layoutX="475.0" layoutY="310.0" prefHeight="45.0" prefWidth="350.0">
+            <children>
+                <PasswordField fx:id="passwordField" prefWidth="350.0" promptText="Password" styleClass="text-field" />
+                <TextField fx:id="passwordTextField" managed="false" prefWidth="350.0" promptText="Password" styleClass="text-field" visible="false" />
+                <ToggleButton fx:id="togglePasswordButton" styleClass="toggle-button-icon" StackPane.alignment="CENTER_RIGHT">
+                    <graphic>
+                        <ImageView fx:id="passwordEyeIcon" fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../assets/eye-closed.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <StackPane.margin>
+                        <Insets right="10.0" />
+                    </StackPane.margin>
+                </ToggleButton>
+            </children>
+        </StackPane>
+
+        <Text fill="#5a6a70" layoutX="475.0" layoutY="370.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Minimal 8 huruf | Huruf besar (A-Z) | Huruf kecil (a-z) |">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </Text>
+        <Text fill="#5a6a70" layoutX="475.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Angka (0-9) | Simbol" textAlignment="CENTER">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </Text>
+
+        <StackPane layoutX="475.0" layoutY="430.0" prefHeight="45.0" prefWidth="350.0">
+            <children>
+                <PasswordField fx:id="confirmPasswordField" prefWidth="350.0" promptText="Konfirmasi Password" styleClass="text-field" />
+                <TextField fx:id="confirmPasswordTextField" managed="false" prefWidth="350.0" promptText="Confirm Password" styleClass="text-field" visible="false" />
+                <ToggleButton fx:id="toggleConfirmPasswordButton" styleClass="toggle-button-icon" StackPane.alignment="CENTER_RIGHT">
+                    <graphic>
+                        <ImageView fx:id="confirmPasswordEyeIcon" fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../assets/eye-closed.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <StackPane.margin>
+                        <Insets right="10.0" />
+                    </StackPane.margin>
+                </ToggleButton>
+            </children>
+        </StackPane>
+
+        <Button layoutX="475.0" layoutY="520.0" onAction="#handleRegister" prefWidth="350.0" styleClass="button-primary" text="Daftar" />
+        <Hyperlink layoutX="565.0" layoutY="575.0" onAction="#handleBackToLogin" text="Sudah punya akun? Masuk" />
+      <ImageView fitHeight="249.0" fitWidth="269.0" layoutX="1.0" layoutY="500.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/kiri.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="249.0" fitWidth="269.0" layoutX="1068.0" layoutY="490.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/kanan.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="122.0" layoutX="24.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/GoHealthy.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
